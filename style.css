@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree";
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contain {
+  height: 415px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid hsl(0, 0%, 7%);
+  box-shadow: 5px 5px hsl(0, 0%, 7%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.svg {
+  height: 160px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  font-weight: 800;
+  font-size: 11.5px;
+  height: 1.5rem;
+  width: 4.8rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 3px;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.date {
+  font-size: 13px;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+h3 {
+  margin-left: 1rem;
+  font-weight:800;
+}
+
+.sec {
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+  margin-left: 1rem;
+  font-size: 13px;
+  color: hsl(0, 0%, 42%);
+}
+
+.greg-image {
+  height: 27px;
+  margin-left: 1rem;
+}
+
+.greg {
+  display: inline;
+  font-size: 13px;
+  font-weight: 800;
+  position: absolute;
+  transform: translate(15%,-50%);
+}
